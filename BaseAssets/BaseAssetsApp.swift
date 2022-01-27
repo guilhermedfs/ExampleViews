@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct TrainingProjectApp: App {
+struct BaseAssetsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MatchedGeometryEffectExample2()
         }
     }
 }
