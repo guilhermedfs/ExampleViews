@@ -8,16 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		7D1AF10227A1F813009E01B8 /* MatchedGeometryEffectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1AF10127A1F813009E01B8 /* MatchedGeometryEffectExample.swift */; };
+		7D288D4327A88F4C00F68BEB /* CustomCurvesExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D288D4227A88F4C00F68BEB /* CustomCurvesExample.swift */; };
 		7D379C1C27A1E4D50009B03A /* BaseAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379C1B27A1E4D50009B03A /* BaseAssetsApp.swift */; };
 		7D379C1E27A1E4D50009B03A /* ViewModifierExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379C1D27A1E4D50009B03A /* ViewModifierExample.swift */; };
 		7D379C2027A1E4D70009B03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D379C1F27A1E4D70009B03A /* Assets.xcassets */; };
 		7D379C2327A1E4D70009B03A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D379C2227A1E4D70009B03A /* Preview Assets.xcassets */; };
 		7D379C2B27A1EA810009B03A /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379C2A27A1EA810009B03A /* ButtonStyleExample.swift */; };
 		7D379C2D27A1F0630009B03A /* AnyTransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379C2C27A1F0630009B03A /* AnyTransitionExample.swift */; };
+		7D7E1EC827A2FA28003CA3E7 /* CustomShapeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E1EC727A2FA27003CA3E7 /* CustomShapeExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7D1AF10127A1F813009E01B8 /* MatchedGeometryEffectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectExample.swift; sourceTree = "<group>"; };
+		7D288D4227A88F4C00F68BEB /* CustomCurvesExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesExample.swift; sourceTree = "<group>"; };
 		7D379C1827A1E4D50009B03A /* BaseAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D379C1B27A1E4D50009B03A /* BaseAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAssetsApp.swift; sourceTree = "<group>"; };
 		7D379C1D27A1E4D50009B03A /* ViewModifierExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierExample.swift; sourceTree = "<group>"; };
@@ -25,6 +28,7 @@
 		7D379C2227A1E4D70009B03A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7D379C2A27A1EA810009B03A /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
 		7D379C2C27A1F0630009B03A /* AnyTransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionExample.swift; sourceTree = "<group>"; };
+		7D7E1EC727A2FA27003CA3E7 /* CustomShapeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				7D379C2A27A1EA810009B03A /* ButtonStyleExample.swift */,
 				7D379C2C27A1F0630009B03A /* AnyTransitionExample.swift */,
 				7D1AF10127A1F813009E01B8 /* MatchedGeometryEffectExample.swift */,
+				7D7E1EC727A2FA27003CA3E7 /* CustomShapeExample.swift */,
+				7D288D4227A88F4C00F68BEB /* CustomCurvesExample.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -155,10 +161,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D1AF10227A1F813009E01B8 /* MatchedGeometryEffectExample.swift in Sources */,
+				7D7E1EC827A2FA28003CA3E7 /* CustomShapeExample.swift in Sources */,
 				7D379C2D27A1F0630009B03A /* AnyTransitionExample.swift in Sources */,
 				7D379C1E27A1E4D50009B03A /* ViewModifierExample.swift in Sources */,
 				7D379C1C27A1E4D50009B03A /* BaseAssetsApp.swift in Sources */,
 				7D379C2B27A1EA810009B03A /* ButtonStyleExample.swift in Sources */,
+				7D288D4327A88F4C00F68BEB /* CustomCurvesExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

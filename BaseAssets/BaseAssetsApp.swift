@@ -11,7 +11,7 @@ import SwiftUI
 struct BaseAssetsApp: App {
     var body: some Scene {
         WindowGroup {
-            MatchedGeometryEffectExample2()
+            CustomCurvesExample()
         }
     }
 }
