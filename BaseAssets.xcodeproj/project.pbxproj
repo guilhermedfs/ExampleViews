@@ -16,6 +16,9 @@
 		7D379C2B27A1EA810009B03A /* ButtonStyleExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379C2A27A1EA810009B03A /* ButtonStyleExample.swift */; };
 		7D379C2D27A1F0630009B03A /* AnyTransitionExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D379C2C27A1F0630009B03A /* AnyTransitionExample.swift */; };
 		7D7E1EC827A2FA28003CA3E7 /* CustomShapeExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7E1EC727A2FA27003CA3E7 /* CustomShapeExample.swift */; };
+		7DD9903E27AB231C00987367 /* ViewBuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9903D27AB231C00987367 /* ViewBuilderExample.swift */; };
+		7DF2320D27AB064B00EA7B69 /* AnimatableDataExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2320C27AB064B00EA7B69 /* AnimatableDataExample.swift */; };
+		7DF2320F27AB0C9300EA7B69 /* GenericsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF2320E27AB0C9300EA7B69 /* GenericsExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		7D379C2A27A1EA810009B03A /* ButtonStyleExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleExample.swift; sourceTree = "<group>"; };
 		7D379C2C27A1F0630009B03A /* AnyTransitionExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionExample.swift; sourceTree = "<group>"; };
 		7D7E1EC727A2FA27003CA3E7 /* CustomShapeExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapeExample.swift; sourceTree = "<group>"; };
+		7DD9903D27AB231C00987367 /* ViewBuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderExample.swift; sourceTree = "<group>"; };
+		7DF2320C27AB064B00EA7B69 /* AnimatableDataExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataExample.swift; sourceTree = "<group>"; };
+		7DF2320E27AB0C9300EA7B69 /* GenericsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				7D1AF10127A1F813009E01B8 /* MatchedGeometryEffectExample.swift */,
 				7D7E1EC727A2FA27003CA3E7 /* CustomShapeExample.swift */,
 				7D288D4227A88F4C00F68BEB /* CustomCurvesExample.swift */,
+				7DF2320C27AB064B00EA7B69 /* AnimatableDataExample.swift */,
+				7DF2320E27AB0C9300EA7B69 /* GenericsExampleView.swift */,
+				7DD9903D27AB231C00987367 /* ViewBuilderExample.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -161,9 +170,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D1AF10227A1F813009E01B8 /* MatchedGeometryEffectExample.swift in Sources */,
+				7DD9903E27AB231C00987367 /* ViewBuilderExample.swift in Sources */,
 				7D7E1EC827A2FA28003CA3E7 /* CustomShapeExample.swift in Sources */,
+				7DF2320D27AB064B00EA7B69 /* AnimatableDataExample.swift in Sources */,
 				7D379C2D27A1F0630009B03A /* AnyTransitionExample.swift in Sources */,
 				7D379C1E27A1E4D50009B03A /* ViewModifierExample.swift in Sources */,
+				7DF2320F27AB0C9300EA7B69 /* GenericsExampleView.swift in Sources */,
 				7D379C1C27A1E4D50009B03A /* BaseAssetsApp.swift in Sources */,
 				7D379C2B27A1EA810009B03A /* ButtonStyleExample.swift in Sources */,
 				7D288D4327A88F4C00F68BEB /* CustomCurvesExample.swift in Sources */,
